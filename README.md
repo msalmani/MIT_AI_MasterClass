@@ -37,9 +37,18 @@ __Expected output:__
 __Expected output:__ 
 
 ### Conclusions: 
+- Data prepration can be tedious and time consuming but it is a very important step for any data science project.
 
+- Complex models are not neccesserily better than simpler methods. Here, Random forest outperforms Neural Network both in performance and computation time. But if we had larger data set probably neural network would have done a better job.
 
 
 ### Further readings: 
+
+- Article 1  
+
+- Article 2 
+
+- Article 3 
+
 
 
