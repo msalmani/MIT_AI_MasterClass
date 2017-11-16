@@ -1,10 +1,10 @@
-### MIT AI MasterClass By BCG GAMMA
+# MIT AI MasterClass By BCG GAMMA
 
-## Goal: Identify customer churn for a telcom company using data science methods in R - R is one the most populare language among data scientists and statisticians.
+### Goal: Identify customer churn for a telcom company using data science methods in R - R is one the most populare language among data scientists and statisticians.
 
-## Problem description: Company X's revenues is based on a subscription service. As customer acquisition costs increase, the company sees management of existing customer churn as a key driver of increasing margins. Here, we aregoing to try to predict which customers are going to churn and what are the underlaying factors for that. These can empower the company to be more targeted in their investments to retain them.
+### Problem description: Company X's revenues is based on a subscription service. As customer acquisition costs increase, the company sees management of existing customer churn as a key driver of increasing margins. Here, we aregoing to try to predict which customers are going to churn and what are the underlaying factors for that. These can empower the company to be more targeted in their investments to retain them.
 
-## Solution
+### Solution
 1. __Please download all Rmd/R/Rdata files into your laptop__
 
 2. __Open Rstudio on your laptop and you should see R studio as:__
@@ -25,10 +25,10 @@
 **Expected output: ** 
 
 
-## Conclusions: 
+### Conclusions: 
 
 
 
-## Further readings: 
+### Further readings: 
 
 
