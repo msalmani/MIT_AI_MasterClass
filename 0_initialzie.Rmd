@@ -8,7 +8,7 @@ output: html_document
 # Churn Prediction Using Machine Learning 
 
 Maximiliano Santinelli - santinelli.max@bcg.com
-
+Mehdi Salmani Jelodar - salmani.mehdi@bcg.com
 
 
 ## Introduction
@@ -22,17 +22,19 @@ The analyses is focused on the telco data set available in the [C50 R package](h
 
 The first step is to install the packages required to chart the source and build the different predictive models.
 
-```{r eval=FALSE}
-install.packages("ggplot2")
-install.packages("corrplot")
-install.packages("devtools")
-install.packages("rpart")
-install.packages("C50")
-install.packages("randomForest")
-install.packages("neuralnet")
-install.packages("pROC")
-```
 ```{r warning=FALSE, message=FALSE}
+requiredPackages = c("ggplot2","corrplot","rpart","C50","randomForest","neuralnet","pROC")
+#check the packages and if not installed install them and then load 
+requiredPackages.check <- lapply(requiredPackages, FUN = function(x) {
+  if (!require(x, character.only = TRUE)) {
+    install.packages(x, dependencies = TRUE)
+    library(x, character.only = TRUE)
+  }
+})
+#list all of the loaded packages
+search()
+```
+```{r eval=FALSE, echo=FALSE, warning=FALSE, message=FALSE}
 library(ggplot2) #graphics library
 library(corrplot) #correlation charts
 library(devtools) #required by bcgstyle
