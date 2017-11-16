@@ -18,14 +18,14 @@
 
 
 3. **Step 1:** First run 0_initialzie.Rmd using Knit buttom or by pushing Ctrl+Shift+k. It installes the required packages and load pacakages then load the data and does initial data checking.
-**Expected output:** 
+__Expected output:__ 
 
 
 4. **Step 2:** Then, run 123_Data_Prepration_and_Visualization.Rmd using Knit or by pushing Ctrl+Shift+k.
 
 ![Alt text](./Slide15_A.png?raw=true "Data Prepration")
 
-**Expected output: ** 
+__Expected output: __ 
 
 5. **Step 3:** Then, run 456_ModelingAndPerformanceEvaluations.Rmd using Knit or by pushing Ctrl+Shift+k.
 
@@ -33,7 +33,7 @@
 
 ![Alt text](./Slide16.PNG?raw=true "Random Forest vs. ANN")
 
-**Expected output: ** 
+__Expected output: __ 
 
 ### Conclusions: 
 
