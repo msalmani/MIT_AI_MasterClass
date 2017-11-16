@@ -5,6 +5,7 @@
 
 ### Problem description
 **Company X's revenues is based on a subscription service. As customer acquisition costs increase, the company sees management of existing customer churn as a key driver of increasing margins. Here, we aregoing to try to predict which customers are going to churn and what are the underlaying factors for that. These can empower the company to be more targeted in their investments to retain them.**
+![Alt text](./Slide14.PNG?raw=true "Context")
 
 ### Solution
 1. Please download all Rmd/R/Rdata files into your laptop
@@ -21,11 +22,15 @@
 
 
 4. **Step 2:** Then, run 123_Data_Prepration_and_Visualization.Rmd using Knit or by pushing Ctrl+Shift+k.
+![Alt text](./Slide15A.PNG?raw=true "Data Prepration")
+
 **Expected output: ** 
 
 5. **Step 3:** Then, run 456_ModelingAndPerformanceEvaluations.Rmd using Knit or by pushing Ctrl+Shift+k.
-**Expected output: ** 
+![Alt text](./Slide15B.PNG?raw=true "Modeling")
+![Alt text](./Slide15B.PNG?raw=true "Random Forest vs. ANN")
 
+**Expected output: ** 
 
 ### Conclusions: 
 
