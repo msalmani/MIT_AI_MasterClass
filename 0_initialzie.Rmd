@@ -23,7 +23,7 @@ The analyses is focused on the telco data set available in the [C50 R package](h
 The first step is to install the packages required to chart the source and build the different predictive models.
 
 ```{r warning=FALSE, message=FALSE}
-requiredPackages = c("ggplot2","corrplot","rpart","C50","randomForest","neuralnet","pROC")
+requiredPackages = c("ggplot2","corrplot","devtools","rpart","C50","randomForest","neuralnet","pROC")
 #check the packages and if not installed install them and then load 
 requiredPackages.check <- lapply(requiredPackages, FUN = function(x) {
   if (!require(x, character.only = TRUE)) {

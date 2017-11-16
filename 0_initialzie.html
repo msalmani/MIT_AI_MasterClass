@@ -134,25 +134,25 @@ $(document).ready(function () {
 <div id="packages-installation" class="section level2">
 <h2>Packages Installation</h2>
 <p>The first step is to install the packages required to chart the source and build the different predictive models.</p>
-<pre class="r"><code>install.packages(&quot;ggplot2&quot;)
-install.packages(&quot;corrplot&quot;)
-install.packages(&quot;devtools&quot;)
-install.packages(&quot;rpart&quot;)
-install.packages(&quot;C50&quot;)
-install.packages(&quot;randomForest&quot;)
-install.packages(&quot;neuralnet&quot;)
-install.packages(&quot;pROC&quot;)</code></pre>
-<pre class="r"><code>library(ggplot2) #graphics library
-library(corrplot) #correlation charts
-library(devtools) #required by bcgstyle
-library(rpart) # CART model
-library(C50) # C50 and Rule-Based classification models
-library(randomForest) #Random forest model
-library(neuralnet) #Neural network model
-library(pROC) # ROC curve and AUC metric</code></pre>
+<pre class="r"><code>requiredPackages = c(&quot;ggplot2&quot;,&quot;corrplot&quot;,&quot;rpart&quot;,&quot;C50&quot;,&quot;randomForest&quot;,&quot;neuralnet&quot;,&quot;pROC&quot;)
+#check the packages and if not installed install them and then load 
+requiredPackages.check &lt;- lapply(requiredPackages, FUN = function(x) {
+  if (!require(x, character.only = TRUE)) {
+    install.packages(x, dependencies = TRUE)
+    library(x, character.only = TRUE)
+  }
+})
+#list all of the loaded packages
+search()</code></pre>
+<pre><code>##  [1] &quot;.GlobalEnv&quot;           &quot;package:pROC&quot;         &quot;package:neuralnet&quot;   
+##  [4] &quot;package:randomForest&quot; &quot;package:C50&quot;          &quot;package:rpart&quot;       
+##  [7] &quot;package:corrplot&quot;     &quot;package:ggplot2&quot;      &quot;package:stats&quot;       
+## [10] &quot;package:graphics&quot;     &quot;package:grDevices&quot;    &quot;package:utils&quot;       
+## [13] &quot;package:datasets&quot;     &quot;package:methods&quot;      &quot;Autoloads&quot;           
+## [16] &quot;package:base&quot;</code></pre>
 </div>
-<div id="data-load-analysis-and-preparation" class="section level2">
-<h2>Data Load, Analysis and Preparation</h2>
+<div id="data-load-and-preparation" class="section level2">
+<h2>Data Load and Preparation</h2>
 <p>The data - a training and a test dataset, respectively - can be loaded directly from the C50 package into two separate data frames and briefly analyzed to understand the different data types. As you see we have 2 data sets: test and train. In machine learning (ML) applications, we usually split data into two subsets: a) training data set and b) testing data set. After training/fitting/preparing the ML model on the train data set, in order to make predictions/classificaiton/regression on the test data set to find out about underfitting or overfitting, which we need to avoid. #results=‘hide’}</p>
 <pre class="r"><code># Load the test data available in the C50 package - create a test and a train data set
 data(churn)
