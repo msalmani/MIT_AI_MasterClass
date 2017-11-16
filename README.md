@@ -8,26 +8,26 @@
 ![Alt text](./Slide14.PNG?raw=true "Context")
 
 ### Solution
-1. Please download all Rmd/R/Rdata files into your laptop
+- Please download all Rmd/R/Rdata files into your laptop
 
-2. Open Rstudio on your laptop and you should see R studio as:
+- Open Rstudio on your laptop and you should see R studio as:
 
 ![Alt text](./Rstudio.PNG?raw=true "RStudio Screenshot")
 
-3. **Step 0:** Open (Ctrl+O) files in order based on the number at the begining of each file's name
+- **Step 0:** Open (Ctrl+O) files in order based on the number at the begining of each file's name
 
 
-3. **Step 1:** First run 0_initialzie.Rmd using Knit buttom or by pushing Ctrl+Shift+k. It installes the required packages and load pacakages then load the data and does initial data checking.
+- **Step 1:** First run 0_initialzie.Rmd using Knit buttom or by pushing Ctrl+Shift+k. It installes the required packages and load pacakages then load the data and does initial data checking.
 __Expected output:__ 
 
 
-4. **Step 2:** Then, run 123_Data_Prepration_and_Visualization.Rmd using Knit or by pushing Ctrl+Shift+k.
+- **Step 2:** Then, run 123_Data_Prepration_and_Visualization.Rmd using Knit or by pushing Ctrl+Shift+k.
 
 ![Alt text](./Slide15_A.png?raw=true "Data Prepration")
 
 __Expected output: __ 
 
-5. **Step 3:** Then, run 456_ModelingAndPerformanceEvaluations.Rmd using Knit or by pushing Ctrl+Shift+k.
+- **Step 3:** Then, run 456_ModelingAndPerformanceEvaluations.Rmd using Knit or by pushing Ctrl+Shift+k.
 
 ![Alt text](./Slide15_B.png?raw=true "Modeling")
 
