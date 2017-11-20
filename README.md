@@ -39,13 +39,13 @@ After loading data, number of rows and number of columns for train and test data
 ![Alt text](./DataLoaded.PNG?raw=true "Data")
 
 
-- **Step 2:** Then, run __123_Data_Prepration_and_Visualization.Rmd__ using Knit or by pushing Ctrl+Shift+k.
+- **Step 2:** Then, run __[123_Data_Prepration_and_Visualization.Rmd](./123_Data_Prepration_and_Visualization.Rmd)__ using Knit or by pushing Ctrl+Shift+k.
 
 ![Alt text](./Slide15_A.png?raw=true "Data Prepration")
 
 __Expected output:__ 
 
-- **Step 3:** Then, run __456_ModelingAndPerformanceEvaluations.Rmd__ using Knit or by pushing Ctrl+Shift+k.
+- **Step 3:** Then, run __[456_ModelingAndPerformanceEvaluations.Rmd](./456_ModelingAndPerformanceEvaluations.Rmd)__ using Knit or by pushing Ctrl+Shift+k.
 
 ![Alt text](./Slide15_B.png?raw=true "Modeling")
 
