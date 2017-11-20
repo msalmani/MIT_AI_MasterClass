@@ -32,6 +32,12 @@
 
 __Expected output:__ 
 
+After loading packages, list of loaded packages: 
+![Alt text](./Pacakges.PNG?raw=true "Packages")
+
+After loading data, number of rows and number of columns for train and test data sets: 
+![Alt text](./DataLoaded.PNG?raw=true "Data")
+
 
 - **Step 2:** Then, run __123_Data_Prepration_and_Visualization.Rmd__ using Knit or by pushing Ctrl+Shift+k.
 
