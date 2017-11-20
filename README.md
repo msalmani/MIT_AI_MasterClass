@@ -61,6 +61,17 @@ Visualizing some variables againt churn somtimes shows some insigful patterns:
 ![Alt text](./Slide16.PNG?raw=true "Random Forest vs. ANN")
 
 __Expected output:__ 
+One of the major outputs from Random Forest is the variable importance:
+![Alt text](./RF_ImportantFactors.PNG?raw=true "Variables Importance")
+
+
+ROC (Receiver Operating Characteristic) curve illustrates the diagnostic ability of a binary classifier system as its discrimination threshold is varied. It is another way of seeing the percision and recall together in a plot:
+
+![Alt text](./ROC_Explaniation.PNG?raw=true "ROC Explanation")
+
+ROC curves for Neural Network vs. Random Forest:
+![Alt text](./ROC.PNG?raw=true "ROC")
+
 
 ### Conclusions: 
 - Data prepration can be tedious and time consuming but it is a very important step for any data science project.
