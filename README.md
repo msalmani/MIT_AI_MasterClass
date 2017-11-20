@@ -12,13 +12,13 @@
 
 1. [0_initialzie.Rmd](./0_initialzie.Rmd)
 
-2. 123_Data Prepration and Visualization.Rmd
+2. [123_Data Prepration and Visualization.Rmd](./123_Data Prepration and Visualization.Rmd)
 
-3. 456_ModelingAndPerformanceEvaluations.Rmd
+3. [456_ModelingAndPerformanceEvaluations.Rmd](./456_ModelingAndPerformanceEvaluations.Rmd)
 
-4. Neural_Network_5_Nodes.png
+4. [Neural_Network_5_Nodes.png](./Neural_Network_5_Nodes.png)
 
-5. NN_Churn.RData
+5. [NN_Churn.RData](./NN_Churn.RData)
 
 - Open Rstudio on your laptop and you should see R studio as:
 
@@ -28,7 +28,7 @@
 - **Step 0:** Open (Ctrl+O) all Rmd files in order based on the number at the begining of each file's name
 
 
-- **Step 1:** First run __0_initialzie.Rmd__ using Knit buttom or by pushing Ctrl+Shift+k. It installes the required packages and load pacakages then load the data and does initial data checking.
+- **Step 1:** First run __[0_initialzie.Rmd](./0_initialzie.Rmd)__ using Knit buttom or by pushing Ctrl+Shift+k. It installes the required packages and load pacakages then load the data and does initial data checking.
 
 __Expected output:__ 
 
