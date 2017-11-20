@@ -12,7 +12,7 @@
 
 1. [0_initialzie.Rmd](./0_initialzie.Rmd)
 
-2. [123_Data Prepration and Visualization.Rmd](./123_Data Prepration and Visualization.Rmd)
+2. [123_Data_Prepration_and_Visualization.Rmd](./123_Data_Prepration_and_Visualization.Rmd)
 
 3. [456_ModelingAndPerformanceEvaluations.Rmd](./456_ModelingAndPerformanceEvaluations.Rmd)
 
