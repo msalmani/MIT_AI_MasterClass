@@ -69,7 +69,9 @@ ROC (Receiver Operating Characteristic) curve illustrates the diagnostic ability
 
 ![Alt text](./ROC_Explaniation.PNG?raw=true "ROC Explanation")
 
+
 ROC curves for Neural Network vs. Random Forest:
+
 ![Alt text](./ROC.PNG?raw=true "ROC")
 
 
