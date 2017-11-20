@@ -8,27 +8,38 @@
 ![Alt text](./Slide14.PNG?raw=true "Context")
 
 ### Solution
-- Please download all Rmd/R/Rdata files into your laptop
+- Please download all these 5 files into your laptop:
+
+1. 0_initialzie.Rmd
+
+2. 123_Data Prepration and Visualization.Rmd
+
+3. 456_ModelingAndPerformanceEvaluations.Rmd
+
+4. Neural_Network_5_Nodes.png
+
+5. NN_Churn.RData
 
 - Open Rstudio on your laptop and you should see R studio as:
 
 ![Alt text](./Rstudio.PNG?raw=true "RStudio Screenshot")
 
-- **Step 0:** Open (Ctrl+O) files in order based on the number at the begining of each file's name
+
+- **Step 0:** Open (Ctrl+O) all Rmd files in order based on the number at the begining of each file's name
 
 
-- **Step 1:** First run 0_initialzie.Rmd using Knit buttom or by pushing Ctrl+Shift+k. It installes the required packages and load pacakages then load the data and does initial data checking.
+- **Step 1:** First run __0_initialzie.Rmd__ using Knit buttom or by pushing Ctrl+Shift+k. It installes the required packages and load pacakages then load the data and does initial data checking.
 
 __Expected output:__ 
 
 
-- **Step 2:** Then, run 123_Data_Prepration_and_Visualization.Rmd using Knit or by pushing Ctrl+Shift+k.
+- **Step 2:** Then, run __123_Data_Prepration_and_Visualization.Rmd__ using Knit or by pushing Ctrl+Shift+k.
 
 ![Alt text](./Slide15_A.png?raw=true "Data Prepration")
 
 __Expected output:__ 
 
-- **Step 3:** Then, run 456_ModelingAndPerformanceEvaluations.Rmd using Knit or by pushing Ctrl+Shift+k.
+- **Step 3:** Then, run __456_ModelingAndPerformanceEvaluations.Rmd__ using Knit or by pushing Ctrl+Shift+k.
 
 ![Alt text](./Slide15_B.png?raw=true "Modeling")
 
