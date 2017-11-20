@@ -10,7 +10,7 @@
 ### Solution
 - Please download all these 5 files into your laptop:
 
-1. 0_initialzie.Rmd
+1. [0_initialzie.Rmd](./0_initialzie.Rmd)
 
 2. 123_Data Prepration and Visualization.Rmd
 
