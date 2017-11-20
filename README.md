@@ -45,6 +45,15 @@ After loading data, number of rows and number of columns for train and test data
 
 __Expected output:__ 
 
+Correlation plot shows the strong correlation between few variables:
+![Alt text](./Corrplot.PNG?raw=true "Corrplot")
+
+Visualizing some variables againt churn somtimes shows some insigful patterns:
+![Alt text](./D.PNG?raw=true "D")
+
+![Alt text](./F.PNG?raw=true "F")
+
+
 - **Step 3:** Then, run __[456_ModelingAndPerformanceEvaluations.Rmd](./456_ModelingAndPerformanceEvaluations.Rmd)__ using Knit or by pushing Ctrl+Shift+k.
 
 ![Alt text](./Slide15_B.png?raw=true "Modeling")
