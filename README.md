@@ -83,11 +83,11 @@ ROC curves for Neural Network vs. Random Forest:
 
 ### Further readings: 
 
-- Article 1  
+- [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)   
 
-- Article 2 
+- [Statistics With R Specialization](https://www.coursera.org/specializations/statistics)   
 
-- Article 3 
+- [Statistical Learning - Stanford](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about) 
 
 
 
