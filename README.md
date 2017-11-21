@@ -4,7 +4,7 @@
 **Identify customer churn for a telcom company using data science methods in R. R is one the most populare languages among data scientists and statisticians.**
 
 ### Problem description
-**Company X's revenues is based on a subscription service. As customer acquisition costs increase, the company sees management of existing customer churn as a key driver of increasing margins. Here, we aregoing to try to predict which customers are going to churn and what are the underlaying factors for that. These can empower the company to be more targeted in their investments to retain them.**
+**A telco company's revenue is based on a subscription service. As customer acquisition costs increase, the company sees management of existing customer churn as a key driver of increasing margins. Here, we aregoing to try to predict which customers are going to churn and what are the underlaying factors for that. These can empower the company to be more targeted in their investments to retain them.**
 ![Alt text](./Slide14.PNG?raw=true "Context")
 
 ### Solution
