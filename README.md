@@ -40,38 +40,39 @@ After loading data, number of rows and number of columns for train and test data
 
 - **Step 2:** Then, run __[123_Data_Prepration_and_Visualization.Rmd](./123_Data_Prepration_and_Visualization.Rmd)__ using Knit or by pushing Ctrl+Shift+k.
 
-![Alt text](./Slide15_A.png?raw=true "Data Prepration")
+ <img src="./Slide15_A.png" width="600"/>
 
 __Expected output:__ 
 
 Correlation plot shows the strong correlation between few variables:
-![Alt text](./Corrplot.PNG?raw=true "Corrplot")
-
+ <img src="./Corrplot.PNG" width="600"/>
+ 
 Visualizing some variables againt churn somtimes shows some insigful patterns:
-![Alt text](./D.PNG?raw=true "D")
+ <img src="./D.PNG" width="600"/>
 
-![Alt text](./F.PNG?raw=true "F")
+ <img src="./F.PNG" width="600"/>
 
 
 - **Step 3:** Then, run __[456_ModelingAndPerformanceEvaluations.Rmd](./456_ModelingAndPerformanceEvaluations.Rmd)__ using Knit or by pushing Ctrl+Shift+k.
 
-![Alt text](./Slide15_B.png?raw=true "Modeling")
+ <img src="./Slide15_B.png" width="600"/>
 
-![Alt text](./Slide16.PNG?raw=true "Random Forest vs. ANN")
+ <img src="./Slide16.PNG?" width="600"/>
 
 __Expected output:__ 
-One of the major outputs from Random Forest is the variable importance:
-![Alt text](./RF_ImportantFactors.PNG?raw=true "Variables Importance")
+One of the major outputs from Random Forest is the _variable importance_:
+
+ <img src="./RF_ImportantFactors.PNG" width="600"/>
 
 
 ROC (Receiver Operating Characteristic) curve illustrates the diagnostic ability of a binary classifier system as its discrimination threshold is varied. It is another way of seeing the percision and recall together in a plot:
 
-![Alt text](./ROC_Explaniation.PNG?raw=true "ROC Explanation")
+ <img src="./ROC_Explaniation.PNG" width="600"/>
 
 
 ROC curves for Neural Network vs. Random Forest:
 
-![Alt text](./ROC.PNG?raw=true "ROC")
+ <img src="./ROC.PNG" width="600"/>
 
 
 ### Conclusions: 
