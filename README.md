@@ -45,7 +45,9 @@ After loading data, number of rows and number of columns for train and test data
 __Expected output:__ 
 
 Correlation plot shows the strong correlation between few variables:
- <img src="./Corrplot.PNG" width="400"/>
+
+<img src="./Corrplot.PNG" width="400"/>
+ 
  
 Visualizing some variables againt churn somtimes shows some insigful patterns:
  <img src="./D.PNG" width="400"/>
