@@ -45,12 +45,12 @@ After loading data, number of rows and number of columns for train and test data
 __Expected output:__ 
 
 Correlation plot shows the strong correlation between few variables:
- <img src="./Corrplot.PNG" width="600"/>
+ <img src="./Corrplot.PNG" width="400"/>
  
 Visualizing some variables againt churn somtimes shows some insigful patterns:
- <img src="./D.PNG" width="600"/>
+ <img src="./D.PNG" width="400"/>
 
- <img src="./F.PNG" width="600"/>
+ <img src="./F.PNG" width="400"/>
 
 
 - **Step 3:** Then, run __[456_ModelingAndPerformanceEvaluations.Rmd](./456_ModelingAndPerformanceEvaluations.Rmd)__ using Knit or by pushing Ctrl+Shift+k.
@@ -72,7 +72,7 @@ ROC (Receiver Operating Characteristic) curve illustrates the diagnostic ability
 
 ROC curves for Neural Network vs. Random Forest:
 
- <img src="./ROC.PNG" width="600"/>
+ <img src="./ROC.PNG" width="400"/>
 
 
 ### Conclusions: 
