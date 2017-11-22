@@ -5,7 +5,7 @@
 
 ### Problem description
 **A telco company's revenue is based on a subscription service. As customer acquisition costs increase, the company sees management of existing customer churn as a key driver of increasing margins. Here, we aregoing to try to predict which customers are going to churn and what are the underlaying factors for that. These can empower the company to be more targeted in their investments to retain them.**
-![Alt text](./Slide14.PNG?raw=true "Context")
+ <img src="./Slide14.PNG" width="600"/>
 
 ### Solution
 - Please download all these 5 files into your laptop:
@@ -22,9 +22,7 @@
 
 - Open Rstudio on your laptop and you should see R studio as:
 
-![Alt text](./Rstudio.PNG?raw=true "RStudio Screenshot")
- 
- <img src="./Rstudio.PNG" alt="RStudio Screenshot" width="600">
+ <img src="./Rstudio.PNG" alt="RStudio Screenshot" width="600"/>
 
 
 - **Step 0:** Open (Ctrl+O) all Rmd files in order based on the number at the begining of each file's name
@@ -35,11 +33,10 @@
 __Expected output:__ 
 
 After loading packages, list of loaded packages: 
-![Alt text](./Packages.PNG?raw=true "Packages")
+ <img src="./Packages.PNG" width="600"/>
 
 After loading data, number of rows and number of columns for train and test data sets: 
-![Alt text](./DataLoaded.PNG?raw=true "Data")
-
+ <img src="./DataLoaded.PNG" width="600"/>
 
 - **Step 2:** Then, run __[123_Data_Prepration_and_Visualization.Rmd](./123_Data_Prepration_and_Visualization.Rmd)__ using Knit or by pushing Ctrl+Shift+k.
 
