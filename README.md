@@ -22,7 +22,9 @@
 
 - Open Rstudio on your laptop and you should see R studio as:
 
-![Alt text](./Rstudio.PNG?raw=true "RStudio Screenshot" width="200")
+![Alt text](./Rstudio.PNG?raw=true "RStudio Screenshot")
+ 
+ <img src="./Rstudio.PNG" width="200">
 
 
 - **Step 0:** Open (Ctrl+O) all Rmd files in order based on the number at the begining of each file's name
