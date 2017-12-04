@@ -1,0 +1,69 @@
+---
+title: "0_initialize"
+author: "Mehdi Salmani Jelodar - BCG"
+date: "November 14, 2017"
+output: html_document
+---
+
+# Churn Prediction Using Machine Learning 
+
+Maximiliano Santinelli - santinelli.max@bcg.com
+Mehdi Salmani Jelodar - salmani.mehdi@bcg.com
+
+
+## Introduction
+
+This tutorial builds models to predict churn using different methodologies - random forests (RF), and artificial neural networks (ANN). A comparative assessment of the models' performance is shown, based on their respective confusion matrix and ROC curves. 
+The analyses are focused on the telco dataset available in the [C50 R package](https://cran.r-project.org/web/packages/C50/index.html).
+
+
+## Packages Installation
+
+The first step is to install the packages required to chart the source and build the different predictive models.
+
+```{r warning=FALSE, message=FALSE}
+requiredPackages = c("ggplot2","corrplot","devtools","rpart","C50","randomForest","neuralnet","pROC")
+#check the packages and if not installed install them and then load 
+requiredPackages.check <- lapply(requiredPackages, FUN = function(x) {
+  if (!require(x, character.only = TRUE)) {
+    install.packages(x, dependencies = TRUE)
+    library(x, character.only = TRUE)
+  }
+})
+#list all of the loaded packages
+search()
+```
+```{r eval=FALSE, echo=FALSE, warning=FALSE, message=FALSE}
+library(ggplot2) #graphics library
+library(corrplot) #correlation charts
+library(devtools) #required by bcgstyle
+library(rpart) # CART model
+library(C50) # C50 and Rule-Based classification models
+library(randomForest) #Random forest model
+library(neuralnet) #Neural network model
+library(pROC) # ROC curve and AUC metric
+```
+
+## Loading and Checking Data 
+
+The data - a training and a test dataset, respectively - can be loaded directly from the C50 package into two separate data frames and briefly analyzed to understand the different data types. As you see we have 2 data sets: test and train. In machine learning (ML) applications, we usually split data into two subsets: a) training data set and b) testing data set. After training/fitting/preparing the ML model on the train data set, in order to make predictions/classificaiton/regression on the test data set to find out about underfitting or overfitting, which we need to avoid. 
+#results='hide'}
+```{r} 
+# Load the test data available in the C50 package - create a test and a train data set
+data(churn)
+
+# Look at the shape of the data sets (count of rows and columns). 
+dim(churnTrain)
+dim(churnTest)
+
+# Preliminary look at the Train data set
+head(churnTrain)
+summary(churnTrain)
+
+# Look in detail at the target variable (churn)
+head(churnTest$churn)
+
+# Check the variable types of each column in Train and Test data sets. 
+sapply(churnTrain, class)
+sapply(churnTest, class)
+```

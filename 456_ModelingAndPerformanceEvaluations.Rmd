@@ -69,8 +69,9 @@ print(RandomForest_Confusion_Matrix_Perc)
 The data need to be transformed in order to effectively train a neural network. More specifically:
 
 * numerical variables should be standardized in the 0-1 range
-* binary variables espressed in terms of "yes"/"no" should be converted to a numeric binary
-* categorical variables (e.g. states, zip codes, etc.) should be transformed in binary variables, where each variables is a binary representation of one of the categories
+* binary variables expressed in terms of "yes"/"no" should be converted to a numeric binary
+* categorical variables (e.g. states, zip codes, etc.) should be transformed in binary variables, where each variable is a binary representation of one of the categories
+
 
 ```{r}
 # Creation of binary  variables for the three area codes in the data set
@@ -161,7 +162,7 @@ plot(Neural_Networks[[4]], cex=0.5)
 ```
 ![Neural Network with Five Nodes](Neural_Network_5_Nodes.png)
 
-The five neural networks successfully trained (with 2,3, 4 and 5 hiddens nodes, respectively) are evaluated against the test data set. The only network showing performance close to other models is the the 5-node network. 
+The five neural networks successfully trained (with 2,3, 4 and 5 hidden nodes, respectively) are evaluated against the test dataset. The only network showing a performance close to other models is the 5-node network. 
 
 ```{r}
 # Generate predictions and cross-validation stats for the neural networks successfully trained
@@ -184,7 +185,7 @@ for (j in 1:5){
 }
 ```
 
-There is the possibility to improve the performance of the 5-node Neural Network by fine tuning the churn threshold decision criteria.
+There is the possibility to improve the performance of the 5-node Neural Network by fine-tuning the churn threshold decision criteria.
 
 For example, the threshold for deciding between "churn" and "no churn" can be selected in order to optimize the trade-off between True and False positives. 
 
@@ -240,7 +241,7 @@ churnTest_y_Num = ifelse(churnTest_y=="no",0,1)
 
 ## Conclusions
 
-The _Random Forest_ model has shown the best performance - as an individual model - when evaluated against the test data set. The _Neural Network_ performance could be further improved by either fine tuning the training parameters or modifying the network structure.
+The _Random Forest_ model has shown the best performance - as an individual model - when evaluated against the test dataset. The _Neural Network_ performance could be further improved by either fine-tuning the training parameters or modifying the network structure.
 
 The most interesting result is from the _Ensemble_ model which provides the best classification performance, with a True Positive rate above 70%.
 
