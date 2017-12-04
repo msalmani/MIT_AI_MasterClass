@@ -13,8 +13,8 @@ Mehdi Salmani Jelodar - salmani.mehdi@bcg.com
 
 ## Introduction
 
-This tutorial builds models to predict churn using different methodologies - random forests (RF), and artifitial neural networks (ANN). A comparative assessment of the models performance is shown, based on their respective confusion matrix and ROC curves. 
-The analyses is focused on the telco data set available in the [C50 R package](https://cran.r-project.org/web/packages/C50/index.html).
+This tutorial builds models to predict churn using different methodologies - random forests (RF), and artificial neural networks (ANN). A comparative assessment of the models' performance is shown, based on their respective confusion matrix and ROC curves. 
+The analyses are focused on the telco dataset available in the [C50 R package](https://cran.r-project.org/web/packages/C50/index.html).
 
 
 ## Packages Installation
@@ -46,7 +46,7 @@ library(pROC) # ROC curve and AUC metric
 
 ## Loading and Checking Data 
 
-The data - a training and a test dataset, respectively - can be loaded directly from the C50 package into two separate data frames and briefly analyzed to understand the different data types. As you see we have 2 data sets: test and train. In machine learning (ML) applications, we usually split data into two subsets: a) training data set and b) testing data set. After training/fitting/preparing the ML model on the train data set, in order to make predictions/classificaiton/regression on the test data set to find out about underfitting or overfitting, which we need to avoid. 
+The data - a training and a test dataset, respectively - can be loaded directly from the C50 package into two separate data frames and briefly analyzed to understand the different data types. As you see we have 2 datasets: test and train. In machine learning (ML) applications, we usually split data into two subsets: a) training data set and b) testing data set. After training/fitting/preparing the ML model on the train data set, in order to make predictions/classification/regression on the test data set to find out about underfitting or overfitting, which we need to avoid.  
 #results='hide'}
 ```{r} 
 # Load the test data available in the C50 package - create a test and a train data set
