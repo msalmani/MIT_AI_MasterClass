@@ -10,11 +10,11 @@
 ### Solution
 - Please download all these 5 files into your laptop:
 
-1. [0_initialzie.Rmd](./0_initialzie.Rmd)
+1. [0_initialize.Rmd](./0_initialize.Rmd)
 
 2. [123_Data_Prepration_and_Visualization.Rmd](./123_Data_Prepration_and_Visualization.Rmd)
 
-3. [456_ModelingAndPerformanceEvaluations.Rmd](./456_ModelingAndPerformanceEvaluations.Rmd)
+3. [456_Modeling_And_Performance_Evaluations.Rmd](./456_modeling_and_performance_evaluations.Rmd)
 
 4. [Neural_Network_5_Nodes.png](./Neural_Network_5_Nodes.png)
 
@@ -28,7 +28,7 @@
 - **Step 0:** Open (Ctrl+O) all Rmd files in order based on the number at the begining of each file's name
 
 
-- **Step 1:** First run __[0_initialzie.Rmd](./0_initialzie.Rmd)__ using Knit buttom or by pushing Ctrl+Shift+k. It installes the required packages and load pacakages then load the data and does initial data checking.
+- **Step 1:** First run __[0_initialize.Rmd](./0_initialize.Rmd)__ using Knit buttom or by pushing Ctrl+Shift+k. It installes the required packages and load pacakages then load the data and does initial data checking.
 
 __Expected output:__ 
 
@@ -55,7 +55,7 @@ Visualizing some variables againt churn somtimes shows some insigful patterns:
  <img src="./F.PNG" width="400"/>
 
 
-- **Step 3:** Then, run __[456_ModelingAndPerformanceEvaluations.Rmd](./456_ModelingAndPerformanceEvaluations.Rmd)__ using Knit or by pushing Ctrl+Shift+k.
+- **Step 3:** Then, run __[456_Modeling And Performance Evaluations.Rmd](./456_modeling_and_performance_evaluations.Rmd)__ using Knit or by pushing Ctrl+Shift+k.
 
  <img src="./Slide15_B.png" width="600"/>
 
