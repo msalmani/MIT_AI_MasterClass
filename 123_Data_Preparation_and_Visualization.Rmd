@@ -1,7 +1,6 @@
 ---
 title: "Data Preparation and Visualization"
 author: "Mehdi Salmani Jelodar - BCG"
-date: "November 14, 2017"
 output: html_document
 ---
 
