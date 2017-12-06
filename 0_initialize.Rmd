@@ -7,6 +7,7 @@ output: html_document
 # Churn Prediction Using Machine Learning 
 
 Maximiliano Santinelli - santinelli.max@bcg.com
+
 Mehdi Salmani Jelodar - salmani.mehdi@bcg.com
 
 
